@@ -1,0 +1,28 @@
+Hub jellemzői:
+
+Eszköz típusa: Egyszerű hálózati eszköz, amely fizikai szinten (OSI modell 1. réteg - fizikai réteg) működik.
+
+Adatátvitel módja: Broadcast (minden portjára elküldi ugyanazt az adatot).
+
+Adatirányítás: Nem tudja megkülönböztetni, hogy melyik eszköz melyik porton van, ezért az összes porton továbbítja az adatot.
+
+Teljesítmény: Lassabb és kevésbé hatékony, mert az összes csomagot minden portra elküldi, így sok a felesleges forgalom.
+
+Biztonság: Alacsony, mert minden adat minden eszközhöz eljut.
+
+Használat: Régebbi, ma már ritkán használják, főleg egyszerű vagy kis hálózatokban.
+
+
+Switch jellemzői:
+
+Eszköz típusa: Okosabb hálózati eszköz, amely adatkapcsolati szinten (OSI modell 2. réteg - adatkapcsolati réteg) működik.
+
+Adatátvitel módja: Unicast (csak a célport felé küldi az adatot), multicast vagy broadcast is tud lenni, de alapvetően portspecifikus.
+
+Adatirányítás: Megtanulja az eszközök MAC-címeit és hogy melyik porton vannak, így csak oda küldi az adatot, ahol a címzett van.
+
+Teljesítmény: Gyorsabb és hatékonyabb, mivel nem terheli feleslegesen az egész hálózatot.
+
+Biztonság: Jobb, mert az adatokat csak a célzott port felé továbbítja, így nem mindenki kapja meg az adatot.
+
+Használat: Modern hálózatok alapvető eszköze, mindenhol használják.
